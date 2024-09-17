@@ -1,0 +1,55 @@
+# Direktori Build
+/build
+/app/build
+/.gradle/
+/local.properties
+
+# Folder Android Studio
+/.idea
+*.iml
+
+# File Log
+*.log
+
+# Cache dan Metadata Gradle
+.gradle
+**/build/
+
+# File APK
+*.apk
+*.ap_
+
+# File Propertis Lainnya
+*.keystore
+
+# File Pengaturan
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# File Direktori Temp
+tmp/
+
+# Direktori Output Proguard
+captures/
+
+# Direktori IntelliJ
+*.ipr
+*.iws
+*.idea/workspace.xml
+*.idea/tasks.xml
+*.idea/gradle.xml
+*.idea/dictionaries
+*.idea/libraries
+.idea/caches
+*.iml
+
+# File Backup
+*.bak
+*.swp
+*~.nib
+*.orig
+*.rej
