@@ -28,6 +28,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -44,10 +45,6 @@ import com.example.restaurantsapp.ui.theme.RestaurantsAppTheme
 @Composable
 fun RestaurantScreen() {
     val viewModel: RestaurantsViewModel = viewModel()
-    val state: MutableState<List<Restaurant>> =
-        remember {
-            mutableStateOf(viewModel.getRestaurants())
-        }
     Column(
         modifier = Modifier
             .fillMaxSize()
