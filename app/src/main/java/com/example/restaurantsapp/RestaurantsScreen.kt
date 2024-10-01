@@ -52,21 +52,21 @@ fun RestaurantScreen() {
     ) {
         // Tambahkan judul, nama, dan NIM
         Text(
-            text = "PAPB - Restaurant App",
+            text = "Restaurant App",
             style = MaterialTheme.typography.headlineMedium,
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(bottom = 8.dp)
         )
         Text(
-            text = "AHMAD ZAKI",
+            text = "ARION SYEMAEL SIAHAAN",
             style = MaterialTheme.typography.titleMedium,
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(bottom = 4.dp)
         )
         Text(
-            text = "225150201111025",
+            text = "225150207111060",
             style = MaterialTheme.typography.bodyMedium,
             modifier = Modifier
                 .fillMaxWidth()
